@@ -9,12 +9,12 @@ export default function Members(props) {
                 return (
                     <div className="personContainer">
                         <div className="person" key={person.id}>
-                            <h2>{person.name}</h2>
+                            <h2 className="person-name">{person.name}</h2>
                             <p>Birthday: {person.birthday}</p>
                             <p>Email: {person.email}</p>
                             <p>Project Role: {person.role}</p>
                             <p>Location: {person.location}</p>
-                            <button onClick={() => props.editMember(person)}>Edit</button>
+                            <button className="edit-button" onClick={() => props.editMember(person)}>Edit</button>
                         </div>
                     </div>
                 )

@@ -28,10 +28,15 @@
   text-align: center;
 }
 
+.person-name {
+  text-align: right;
+  margin-bottom: 15%
+}
+
 .person {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border-radius: 20px;
-  text-align: center;
+  text-align: left;
   margin: 10px;
   padding: 5px 30px;
   width: 250px;
@@ -47,6 +52,11 @@
   margin: 10px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
+}
+
+.edit-button:hover {
+  background-color: black;
+  color: white;
 }
 
 
