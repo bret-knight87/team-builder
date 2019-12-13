@@ -1,0 +1,66 @@
+.container {
+  background: linear-gradient(90deg, rgb(33, 30, 87) 0%, rgb(132, 196, 192) 35%, rgb(187, 195, 197) 100%);
+  overflow: hidden;
+}
+
+.personContainer {
+  display: flex;
+  margin: auto;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  text-align: center;
+  margin: 0 auto;
+  border: black;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.person-name {
+  text-align: right;
+  margin-bottom: 15%
+}
+
+.person {
+  background-color: white;
+  border-radius: 20px;
+  text-align: left;
+  margin: 10px;
+  padding: 5px 30px;
+  width: 250px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.edit-button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+html, body, #root, .container {
+  height: 100%;
+}
